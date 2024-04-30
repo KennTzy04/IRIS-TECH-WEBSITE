@@ -988,12 +988,12 @@ footer .foot_container .quicklinks ul li a {
     margin-bottom: 10px;
     display: inline-block;
 }
-footer .foot_container .sec_contact .info {
+footer .foot_container .sec-contact .info {
     position: relative;
     color: #333333;
     background-color: white;
 }
-footer .foot_container .sec_contact .info li {
+footer .foot_container .sec-contact .info li {
     display: grid;
     grid-template-columns: 30px 1fr;
     margin-bottom: 16px;
@@ -1012,7 +1012,6 @@ footer .foot_container .contact .info li span {
     color: #000000;
     border: 1px solid rgba(0, 0, 0, 0.15);
 }
-
 
 /***CONTECT RESPONSIVE***/
 
