@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Iris Tech Website</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Iris Tech Website" name="keywords">
+        <meta content="Iris Tech Website" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"> 
+
+        <!-- Libraries CSS -->
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- Main Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Nav Start -->
+        <div id="nav">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav ml-auto">
+                            <a href="#home" class="nav-item nav-link">Home</a>
+                            <a href="#about" class="nav-item nav-link">About</a>
+                            <a href="#service" class="nav-item nav-link">Service</a>
+                            <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu">
+                                    <a href="#skills" class="dropdown-item">Skills</a>
+                                    <a href="#team" class="dropdown-item">Team Members</a>
+                                </div>
+                            </div>
+                            <a href="#contactUs" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Nav End -->
+
+        <!-- Header Start-->
+        <div class="header">
+            <div id="header-slider" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#header-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#header-slider" data-slide-to="1"></li>
+                    <li data-target="#header-slider" data-slide-to="2"></li>
+                </ul>
+            
+                <!-- Carousel Inner with Background Image -->
+                <div class="carousel-inner" style="background-image: linear-gradient(rgba(31, 30, 30, 0.7), rgba(0, 0, 0, 0.7)), url(img/headerlogo.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">                    <!-- Carousel Item 1 -->
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="carousel-content">
+                                    <h2>Welcome to Iris Tech!</h2>
+                                    <p>We are a technology company dedicated to bringing you the best in innovative solutions.</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="carousel-img">
+                                    <img src="img/slider-1.png" alt="Image 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Carousel Item 2 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="carousel-content">
+                                    <h2>Our Vision</h2>
+                                    <p>We envision a world where Iris Tech's pioneering solutions lead the march towards a smarter, more connected future for all.</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="carousel-img">
+                                    <img src="img/slider-2.png" alt="Image 2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Carousel Item 3 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="carousel-content">
+                                    <h2>Our Mission</h2>
+                                    <p>Our mission is to be the go-to technology partner for clients ranging from individual freelancers to large corporations, providing solutions that make us an indispensable asset in their journey towards success.</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="carousel-img">
+                                    <img src="img/slider-3.png" alt="Image 3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Previous & Next arrows -->
+                <a class="carousel-control-prev" href="#header-slider" data-slide="prev">
+                    <i class="ion-ios-arrow-back"></i>
+                </a>
+                <a class="carousel-control-next" href="#header-slider" data-slide="next">
+                    <i class="ion-ios-arrow-forward"></i>
+                </a>
+            </div>
+            
+        <!-- Header End-->
+
+        <!-- About Start-->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Us</h2>
+                    <p>
+                        At "Iris Tech", we are proud to share our story and goal to revolutionize the digital landscape. And to turn their shared passion for technology into a reality.
+                    </p>
+                </div>
+                
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="about-img">
+                            <img src="img/about.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="about-content">
+                            <h2>Welcome to Iris Tech</h2>
+                            <p>
+                                Established in 2024, **Iris Tech** is a beacon of innovation in the realm of technology. Named after the iris of the eye, we envision ourselves as the aperture controlling the amount of light that enters the world of technology, adjusting to the ever-changing landscape of this dynamic industry.
+                            </p>
+                            <div class="additional-text" id="more-text">
+                                <p>
+                                    Our journey began with a small team of dedicated engineers and has since grown into a diverse group of experts, each bringing unique skills and perspectives to the table. Despite our recent inception, our commitment to excellence and our passion for problem-solving have propelled us to the forefront of technological advancements.
+                                </p>
+                                <p>
+                                    At Iris Tech, we believe in the power of technology to transform lives and industries. Our mission is to create cutting-edge solutions that address real-world problems, drive progress, and shape the future of technology. We are Iris Tech, illuminating the path to innovation.
+                                </p>
+                            </div>
+                            <label for="toggle" class="read-more-btn">Read More...</label>
+                            <input type="hidden" id="toggle">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about-img">
+                            <img src="img/about-story.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="about-content">
+                            <h2>Our Story</h2>
+                            <p>
+                                We, at "Iris Tech", are proud graduates of "Computer Engineering" from "PHINMA Cagayan de Oro College". Our journey began in 2024, when we decided to turn our shared passion for technology and innovation into a reality.
+                            </p>
+                            <div class="additional-text" id="more-text-story">
+                                <p>
+                                    Our academic journey was filled with countless hours of studying, coding, and problem-solving. We tackled complex projects, worked with cutting-edge technologies, and learned from some of the best minds in the field. These experiences not only equipped us with a deep understanding of computer systems and software development but also instilled in us the values of hard work, perseverance, and teamwork.
+                                </p>
+
+                                <p>
+                                    Upon graduation, we decided to turn our shared passion into a reality and thus, Iris Tech was born. We started in a small office, with nothing more than our laptops and a dream. We worked tirelessly, turning lines of code into innovative solutions that could make a difference in the world.
+                                </p>
+
+                                <p>
+                                    Over the years, we've faced numerous challenges. There were times when our code didn't work, our designs didn't fit, and our solutions didn't solve. But each challenge was a learning opportunity, a chance to grow, and a step closer to our goals.
+                                </p>
+
+                                <p>
+                                    Today, Iris Tech has grown into a diverse team of experts, each bringing unique skills and perspectives to the table. We've developed solutions that have transformed industries, created technologies that have improved lives, and built a reputation for excellence and innovation.
+                                </p>
+                                
+                                <p>
+                                    But our journey doesn't end here. As we look to the future, we are excited about the possibilities that lie ahead. We are committed to pushing the boundaries of what's possible, to exploring uncharted territories, and to illuminating the path to innovation.
+                                </p>
+
+                                <p>
+                                    We are Iris Tech, a team of PHINMA Cagayan de Oro College graduates, committed to making a difference in the world of technology. This is our story.
+                                </p>
+
+
+                                
+                            </div>
+                            <label for="toggle-story" class="read-more-btn">Read More...</label>
+                            <input type="hidden" id="toggle-story">
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="about-img">
+                            <img src="img/about-goal.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="about-content">
+                            <h2>Our Goal</h2>
+                            <p>
+                                At "Iris Tech", our goal is not just about developing innovative technological solutions. We aim to create a ripple effect of positive change through technology, reaching far beyond the realm of computer engineering.
+                            </p>
+                            <div class="additional-text" id="more-text-goal">
+                                <p>
+                                    We strive to create solutions that are not only innovative but also sustainable and socially responsible. We believe in technology that empowers individuals, bridges gaps, and fosters inclusivity. Our goal is to leverage our expertise in computer engineering to create a world where technology serves as a tool for positive transformation.
+                                </p>
+
+                                <p>
+                                    We are committed to continuous learning and adaptation in this rapidly evolving digital landscape. We aim to stay at the forefront of technological advancements, not just to keep up with the trends, but to set them.
+                                </p>
+
+                                <p>
+                                    Our goal is to illuminate the path to innovation, one line of code at a time. We are Iris Tech, and we're here to make a difference.
+                                </p>
+                            </div>
+                            <label for="toggle-goal" class="read-more-btn">Read More...</label>
+                            <input type="hidden" id="toggle-goal">
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <section class="service" id="service">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Services</h2>
+                    <p>
+                        At "Iris Tech", we offer a wide range of services tailored to meet your technological needs. Our team of experts is dedicated to delivering excellence in all areas of our work.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='fa-solid fa-code'></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">Web Development</a></h4>
+                                <p> We use the latest technologies and follow best practices to ensure our websites are responsive, accessible, and SEO-friendly.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='fa-solid fa-palette'></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">UI/UX Designing</a></h4>
+                                <p>We prioritize user experience, ensuring that every element we design is easy to use and contributes to a seamless user journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='fa-brands fa-android'></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">App Development</a></h4>
+                                <p> Our team is skilled in developing apps for various platforms, ensuring they are optimized for performance and usability.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='fa-solid fa-laptop-code'></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">Frontend Development</a></h4>
+                                <p>We ensure that all elements of the website function as expected, providing users with a smooth and enjoyable browsing experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa-brands fa-wordpress"></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">Wordpress Development</a></h4>
+                                <p>We offer WordPress development services, creating custom themes and plugins tailored to your specific needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Service End --> 
+    
+         <!-- Skills Start-->
+         <section class="skills" id="skills">
+            <div class="skill-container">
+                <div class="section-header">
+                    <h2>Our Skills</h2>
+                    <p>
+                        At "Iris Tech", our team of computer engineers brings a diverse set of skills to the table. Here's a snapshot of what we excel at:
+                    </p>
+                </div>
+        
+                <div class="skill-logo">
+                    <!-- Skill Box 1 -->
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="img/skill logo 1.svg" class="skill-icons">
+                            </div>
+                            <h3>HTML 5</h3>
+                        </div>
+                        <p>To create web pages and applications. It provides improved semantics, multimedia support, and better integration with other technologies.</p>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="img/skill logo 2.svg" class="skill-icons">
+                            </div>
+                            <h3>CSS 3</h3>
+                        </div>
+                        <p>Designing the layout and appearance of web content. It introduces features like transitions, animations, and responsive design.</p>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="img/skill logo 3.svg" class="skill-icons">
+                            </div>
+                            <h3>PYTHON</h3>
+                        </div>
+                        <p>Known for its readability and versatility. While it’s not directly related to web development, it’s widely used for backend development, data analysis, and automation.</p>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="img/skill logo 4.svg" class="skill-icons">
+                            </div>
+                            <h3>MYSQL</h3>
+                        </div>
+                        <p>An open-source relational database management system (RDBMS). It’s commonly used for storing and retrieving data in web applications.</p>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="img/skill logo 5.svg" class="skill-icons">
+                            </div>
+                            <h3>JAVASCRIPT</h3>
+                        </div>
+                        <p>Adding interactivity and functionality to web pages. It runs in the browser and allows you to create dynamic and interactive user experiences.</p>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="img/skill logo 6.svg" class="skill-icons">
+                            </div>
+                            <h3>WORDPRESS</h3>
+                        </div>
+                        <p>Allows you create and manage websites easily. It’s based on PHP and MySQL and is widely used for blogs, business websites, and e-commerce sites.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills End-->
+
+        
+        <!-- Counters Start-->
+        <div class="counters">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-6 text-center">
+                        <i class="ion-md-person"></i>
+                        <h2 data-toggle="counter-up">0</h2>
+                        <p>Our Staffs</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <i class="ion-md-people"></i>
+                        <h2 data-toggle="counter-up">0</h2>
+                        <p>Our Clients</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <i class="ion-md-checkmark"></i>
+                        <h2 data-toggle="counter-up">0</h2>
+                        <p>Completed Projects</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <i class="ion-md-trending-up"></i>
+                        <h2 data-toggle="counter-up">0</h2>
+                        <p>Running Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counters End-->
+
+        <!-- Portfolio Start -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Portfolio</h2>
+                    <p>
+                        At "Iris Tech", we take pride in the work we've done. Our portfolio showcases a range of projects that demonstrate our skills, creativity, and ability to deliver results. Here are a few highlights:
+                    </p>
+                </div>
+        
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-1.png" class="img-fluid" alt="Portfolio">
+                            <a href="img/portfolio-1.png" data-lightbox="portfolio" data-title="Lorem ipsum dolor" class="link-preview" title="Preview"><i class="ion-md-eye"></i></a>
+                            <a href="" class="link-details" title="More Details"><i class="ion-md-open"></i></a>
+                        </div>
+        
+                        <div class="portfolio-info">
+                            <h3>Coming Soon</h3>
+                            <p>Web Design</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-2.png" class="img-fluid" alt="Portfolio">
+                            <a href="img/portfolio-2.png" class="link-preview" data-lightbox="portfolio" data-title="Nulla ullamcorper pharetra" title="Preview"><i class="ion-md-eye"></i></a>
+                            <a href="" class="link-details" title="More Details"><i class="ion-md-open"></i></a>
+                        </div>
+
+                        <div class="portfolio-info">
+                            <h3>Coming Soon</h3>
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-3.png" class="img-fluid" alt="Portfolio">
+                            <a href="img/portfolio-3.png" class="link-preview" data-lightbox="portfolio" data-title="Phasellus eget dictum" title="Preview"><i class="ion-md-eye"></i></a>
+                            <a href="" class="link-details" title="More Details"><i class="ion-md-open"></i></a>
+                        </div>
+
+                        <div class="portfolio-info">
+                            <h3>Coming Soon</h3>
+                            <p>App Design</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-4.png" class="img-fluid" alt="Portfolio">
+                            <a href="img/portfolio-4.png" data-lightbox="portfolio" data-title="Lorem ipsum dolor" class="link-preview" title="Preview"><i class="ion-md-eye"></i></a>
+                            <a href="" class="link-details" title="More Details"><i class="ion-md-open"></i></a>
+                        </div>
+
+                        <div class="portfolio-info">
+                            <h3>Coming Soon</h3>
+                            <p>App Development</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-5.png" class="img-fluid" alt="Portfolio">
+                            <a href="img/portfolio-5.png" class="link-preview" data-lightbox="portfolio" data-title="Nulla ullamcorper pharetra" title="Preview"><i class="ion-md-eye"></i></a>
+                            <a href="" class="link-details" title="More Details"><i class="ion-md-open"></i></a>
+                        </div>
+
+                        <div class="portfolio-info">
+                            <h3>Coming Soon</h3>
+                            <p>Web Design</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-6.png" class="img-fluid" alt="Portfolio">
+                            <a href="img/portfolio-6.png" class="link-preview" data-lightbox="portfolio" data-title="Phasellus eget dictum" title="Preview"><i class="ion-md-eye"></i></a>
+                            <a href="" class="link-details" title="More Details"><i class="ion-md-open"></i></a>
+                        </div>
+
+                        <div class="portfolio-info">
+                            <h3>Coming Soon</h3>
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio End -->
+        
+        <!-- Team Start -->
+        <section class="team" id="team">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Meet our team</h2>
+                    <p>
+                        At "Iris Tech", our strength lies in our team. We are a diverse group of computer engineers, each bringing unique skills and perspectives to the table. Here's a glimpse of our teams:
+                    </p>
+                </div>
+        
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 team-item">
+                        <div class="team-img">
+                            <img src="img/team-1.jpg" class="img-fluid" alt="Team Member">
+                            <div class="team-social">
+                                <a href="#"><i class="ion-logo-twitter"></i></a>
+                                <a href="#"><i class="ion-logo-facebook"></i></a>
+                                <a href="#"><i class="ion-logo-linkedin"></i></a>
+                                <a href="#"><i class="ion-logo-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Melvin Dandasan</h3>
+                            <p>Web/App Developer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-sm-6 team-item">
+                        <div class="team-img">
+                            <img src="img/team-2.jpg" class="img-fluid" alt="Team Member">
+                            <div class="team-social">
+                                <a href="#"><i class="ion-logo-twitter"></i></a>
+                                <a href="#"><i class="ion-logo-facebook"></i></a>
+                                <a href="#"><i class="ion-logo-linkedin"></i></a>
+                                <a href="#"><i class="ion-logo-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Keen Thomas Memoracion</h3>
+                            <p>App/Web Developer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-sm-6 team-item">
+                        <div class="team-img">
+                            <img src="img/team-3.jpg" class="img-fluid" alt="Team Member">
+                            <div class="team-social">
+                                <a href="#"><i class="ion-logo-twitter"></i></a>
+                                <a href="#"><i class="ion-logo-facebook"></i></a>
+                                <a href="#"><i class="ion-logo-linkedin"></i></a>
+                                <a href="#"><i class="ion-logo-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Kenneth Casing</h3>
+                            <p>Web Designer/Developer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-sm-6 team-item">
+                        <div class="team-img">
+                            <img src="img/team-4.jpg" class="img-fluid" alt="Team Member">
+                            <div class="team-social">
+                                <a href="#"><i class="ion-logo-twitter"></i></a>
+                                <a href="#"><i class="ion-logo-facebook"></i></a>
+                                <a href="#"><i class="ion-logo-linkedin"></i></a>
+                                <a href="#"><i class="ion-logo-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Kent Jay Aclao</h3>
+                            <p>App/Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team End -->
+
+
+        <!-- Contact Start -->
+        <section class="contactUs" id="contactUs">
+            <div class="container">
+                <div class="title2">
+                    <h2>Get in Touch</h2>
+                </div>
+                <div class="box">
+                    <!-- FORM -->
+                    <div class="contact form">
+                        <h3>Send a Message</h3>
+                        <form>
+                            <div class="formBox">
+                                <div class="row50">
+                                    <div class="inputBox">
+                                        <span>First Name</span>
+                                        <input type="text" placeholder="">
+                                    </div>
+                                    <div class="inputBox">
+                                        <span>Last Name</span>
+                                        <input type="text" placeholder="">
+                                    </div>
+                                </div>
+        
+                                <div class="row50">
+                                    <div class="inputBox">
+                                        <span>Email Address</span>
+                                        <input type="text" placeholder="">
+                                    </div>
+                                    <div class="inputBox">
+                                        <span>Mobile Number</span>
+                                        <input type="text" placeholder="">
+                                    </div>
+                                </div>
+        
+                                <div class="row100">
+                                    <div class="inputBox">
+                                        <span>Message</span>
+                                        <textarea placeholder="Write you message here..."></textarea>
+                                    </div>
+                                </div>
+        
+                                
+                                <div class="row100">
+                                    <div class="inputBox">
+                                        <input type="submit" value="Send">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- INFO BOX -->
+                    <div class="contact info">
+                        <h3>Contact Information</h3>
+                        <div class="infoBox">
+                            <div>
+                                <span><i class="fa-solid fa-location-dot"></i></span>
+                                <p> Cagayan de Oro City, Misamis Oriental <br>Philippines, 9000</p>
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-envelope"></i></span>
+                                <a href="mailto:iris_tech@gmail.com"> iris_tech@gmail.com</a>
+                            </div>
+        
+                            <div>
+                                <span><i class="fa-solid fa-phone"></i></span>
+                                <a href="tel:+63 9xxxxxxxxxx"> +63 9xx xxx xxxx</a>
+                            </div>
+                            
+                            <!-- INFO BOX -->
+        
+                            <ul class="sci">
+                                <li><a href="#"><i class="ion-logo-facebook"></i></a></li>
+                                <li><a href="#"><i class="ion-logo-linkedin"></i></a></li>
+                                <li><a href="#"><i class="ion-logo-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                <!-- MAP -->
+                <div class="contact map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126310.23771903514!2d124.55032454052478!3d8.382478804278353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2d9810e9e81%3A0x2edcd5b84a6de2a2!2sCagayan%20de%20Oro%2C%20Misamis%20Oriental!5e0!3m2!1sen!2sph!4v1714453144617!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </section>
+                </div>
+            </div>
+        </section>
+        <!-- Contact End -->
+ 
+        <!-- Footer Start -->
+        <footer>
+            <div class="foot_container">
+                <div class="sec aboutus">
+                    <h2>About Us</h2>
+                    <p>As pioneers in the tech industry, Our dedication to pushing the boundaries of innovation is truly inspiring. Our commitment to excellence and continuous improvement sets you apart in this fast-paced digital world.</p>
+                    <ul class="sci2">
+                        <li><a href="#"><i class="ion-logo-facebook"></i></a><li>
+                        <li><a href="#"><i class="ion-logo-linkedin"></i></a><li>
+                        <li><a href="#"><i class="ion-logo-instagram"></i></a><li>
+                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a><li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Home</h2>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Our Team</a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Support</h2>
+                    <ul>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="sec-contact">
+                    <h2>Contact Us</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa-solid fa-envelope"></i></span><p><a href="mailto:iris_tech@gmail.com:"> iris_tech@gmail.com</a></p>
+                        </li>
+
+                        <li>
+                            <span><i class="fa-solid fa-phone"></i></span><p><a href="tel:+63 9xxxxxxxxxx:"> +63 9xx xxx xxxx</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <div class="copyrightText">
+            <p>Copyright © 2024 IrisTech. All rights reserved.</p>
+        </div>
+        
+        <!-- Footer End -->
+
+        <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+
+        <!-- Libraries JS -->
+        <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/jquery/jquery-migrate.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Main Javascript -->
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
